@@ -5,6 +5,8 @@ Note: Make sure you remove/replace all commas from the tabbed separated document
 
 I am currently using bash and a whisper of python 2.7 on a Mac.  Bash is kind of rough so eventually I would recode it all in python once I learn it better. I just found somethings easier to cope with in bash so I went with it.
 
+This handles dupes by removing them until the rows are unique. Duplicates are entries that are identical in every field.
+
 The central script file is nud2goog.sh.
 
 -sstreeter 7/24/2017
